@@ -1,3 +1,4 @@
+import Button from "./Button";
 import noProjectImage from "../assets/no-projects.png";
 
 export default function NoProjectSelected() {
@@ -15,7 +16,7 @@ export default function NoProjectSelected() {
         Select a project or get started with a new one
       </p>
       <p className="mt-8">
-        <button className="">Create new project</button>
+        <Button>Create new project</Button>
       </p>
     </div>
   );
