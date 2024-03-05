@@ -1,4 +1,4 @@
-export default function SelecredProject({ project }) {
+export default function SelectedProject({ project }) {
   const formattedDate = new Date(project.dueDate).toLocaleDateString("en-US", {
     year: "numeric",
     month: "short",
